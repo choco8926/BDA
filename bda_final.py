@@ -32,5 +32,4 @@ plt.plot(fpr,tpr, label='AUC = %0.3f' %metrics.auc(fpr,tpr))
 plt.xlabel('FPR')
 plt.ylabel('TPR')
 plt.title('ROC Curve')
-lab = 'asdfasd'
 plt.legend(loc='lower right')
